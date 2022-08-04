@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AU University</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+
+  <div class="test-container container">
+    <div class="score__inner">
+      <h1 class="score__title fs-3 mb-1 mb-md-2">AKFA (AU) University exam answers</h1>
+      <h2 class="score__ball-title text-center fs-5">Max score - 180</h2>
+      <p class="score__ball text-center">Create your score</p>
+      <form class="score__form form" autocomplete="off">
+        <div class="form__content flex-column row flex-md-row">
+          <input class="form__input input-group-text bg-info col" type="number" aria-label="score exam"
+            placeholder="Enter your score" required>
+
+          <select class="form__select form-select col w-25 d-inline-block bg-info ms-md-2 mt-2 mt-md-0"
+            aria-label="Default select example">
+            <option selected hidden>Choose a direction</option>
+            <option value="150">Medical direction</option>
+            <option value="170">Programming direction</option>
+            <option value="120">Engineer</option>
+            <option value="160">Electronic commerce</option>
+            <option value="180">Information security</option>
+          </select>
+        </div>
+
+        <div class="form__button-box text-center">
+          <button class="form__btn btn ps-5 pe-5" type="submit">Click</button>
+        </div>
+      </form>
+
+      <div class="test__output output mt-3">
+        <output class="output__result"></output>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+
+</body>
+
+</html>

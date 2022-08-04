@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.7s ease;
+}
+
+body {
+  background-image: url("https://www.uzdaily.uz/storage/img/july2020/iW9MEW15937653774013_l.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.score__title {
+  text-align: center;
+  color:dimgrey;
+}
+
+.form__input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.score__inner {
+  margin: auto;
+  margin-top: 90px;
+  padding: 60px;
+  max-width: 900px;
+  height: 500px;
+  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.546);
+  background-color: antiquewhite;
+}
+
+.form__btn {
+  margin-top: 60px;
+  background-color: red;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 20px;
+}
+.form__btn:hover {
+  color: white;
+  background-color: #333;
+}
+.output__result-red {
+  color: red;
+}
+
+.output__result-green {
+  color: green;
+}
+
